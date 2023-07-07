@@ -5,7 +5,7 @@ function App() {
     const [backendData, setBackendData] = useState([{}]);
 
     useEffect(() => {
-        fetch("/api")
+        fetch("https://fullstack-backend-tz8s.onrender.com/api")
             .then((res) => res.json())
             .then((data) => setBackendData(data));
     }, []);

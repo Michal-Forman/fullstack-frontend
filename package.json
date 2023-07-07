@@ -2,7 +2,6 @@
   "homepage": "http://michal-forman.github.io/fullstack-frontend",
   "name": "client",
   "version": "0.1.0",
-  "proxy": "https://fullstack-backend-tz8s.onrender.com",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
@@ -40,6 +39,7 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^5.0.0"
+    "gh-pages": "^5.0.0",
+    "@babel/plugin-proposal-private-property-in-object": "^7.16.7"
   }
 }
